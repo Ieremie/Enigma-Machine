@@ -1,0 +1,47 @@
+
+Enigma Coursework
+
+ 1. Parts
+	- Input from a file and output to a file
+	- Both 3 challenges completed
+	- Completed all the Enigma Machine specs
+	
+ 2. Extensions and usage
+	- Add in input.txt the message you want to be decrypted and run the code. Write the
+	whole message on ONE LINE!
+	
+	- The user can choose to run a challenge or to decrypt a message. To choose
+	a challenge, type "bombe", press enter and type "1" or "2" or "3". Example:
+	
+	bombe
+	2
+	
+	- To choose a normal decryption, type "enigma". Then, you have to say 
+	  which plugs you connect respecting this format:
+	  "first character of the plug" "second character of the plug", press enter
+	  and so on. To finish with the plugs, type "finish". Example:
+	  
+	  A B
+	  G F
+	  finish
+	
+	  Then, you will be instructed to choose the rotors in the specified order (first
+	  you will add the rotor from slot 2, then from slot 1, then from slot 0).
+	  The format is: "rotor type" "position" and press enter. For simple rotors the command is
+	  "I" or "II", and so on according to its type, for turnover rotors the command
+	  is "turnI" or "turnII", and so on according to its type. Example:
+	  
+	  II 20
+	  turnI 10
+	  IV 9
+	  
+	  Then, you will have to add the reflector. Type "ReflectorI" or "ReflectorII" and press enter. Example:
+	  
+	  ReflectorII
+	  
+	- Look for the results in output.txt. All these instruction will appear in the
+	  console as well. If you write an incorrect command, run the code again!
+	  
+ 3. Extension description
+	- The extension I chose to do was a command line interface. In additions to this,
+	the user can also choose the challenge to be ran from the command line interface.
